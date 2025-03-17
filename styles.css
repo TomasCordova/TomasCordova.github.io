@@ -56,8 +56,6 @@ body {
     color: cadetblue;
     background-size: cover;
     justify-content: center;
-    border: 8px solid azure;
-    border-style: ridge;
 }
 
 tr, td {
