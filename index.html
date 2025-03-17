@@ -10,16 +10,66 @@
         <script src="script.js"></script>
         <h1 class="title">Welcome to Córdova's Page</h1>
         <div class="container">
-            <p class="paragraph">My name is Tomás Córdova and I study at Los Andes University. I study Civil Engineering in Computer Science. I'd like to dedicate my life programing and investigating about AI on a big company.</p>
-            <p class="paragraph">In my free time I like to play the drums, listen to music and watch movies and series. <a href="https://www.youtube.com/watch?v=VQH8ZTgna3Q">Here</a> you can listen to one of my favourites songs. I also like to play video games with my friends and have a good laugh together.</p>
-            <button id="cambiaCara" class="button"></button>
-            <div class="image"><img src="mondongo.jpg" alt="Imagen"></div>
+            <ol>
+                <li class="list">Name: Tomás Córdova</li>
+                <li class="list">Major: Computer Science</li>
+                <li class="list">Year of University Enrollment: 2020</li>
+                <li class="list">Link to my Github: <a href="https://github.com/TomasCordova/TomasCordova.github.io">https://github.com/TomasCordova/TomasCordova.github.io</a></li>
+                <li class="list">Personal Summary: </li>
+                <p class="paragraph">My name is Tomás Córdova and I study at Los Andes University. I study Civil Engineering in Computer Science. I'd like to dedicate my life programing and investigating about AI on a big company.</p>
+                <p class="paragraph">In my free time I like to play the drums, listen to music and watch movies and series. <a href="https://www.youtube.com/watch?v=VQH8ZTgna3Q">Here</a> you can listen to one of my favourites songs. I also like to play video games with my friends and have a good laugh together.</p>
+                <li class="list">Skill Table:</li>
+            </ol>
+        </div>
+        <div class="separate">
+            <table .border="1" class="table">
+                <tr>
+                    <td>Skill</td>
+                    <td>Level</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Advance</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Basic</td>
+                </tr>
+                <tr>
+                    <td>HTML/CSS</td>
+                    <td>Basic</td>
+                </tr>
+                <tr>
+                    <td>Git</td>
+                    <td>Basic</td>
+                </tr>
+                <tr>
+                    <td>Excel</td>
+                    <td>Advance</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>Basic</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>Advance</td>
+                </tr>
+                <tr>
+                    <td>Spanish</td>
+                    <td>Native</td>
+                </tr>
+            </table>
+            <div>
+                <div class="image"><img src="mondongo.jpg" alt="Imagen"></div>
+                <button id="cambiaCara" class="button"></button>
+            </div>
         </div>
         <p class="paragraph">You can kill the face above, but it will always come back. Hold it in place so it stays dead, save us all.</p>
         <p class="paragraph">Also you can save anything you write on the text box below.</p>
         <div class="input-area">
-            <textarea id="textInput" placeholder="Escribe algo aquí..."></textarea>
-            <button onclick="guardarTexto()">Guardar</button>
+            <textarea id="textInput" placeholder="Write something here..."></textarea>
+            <button onclick="guardarTexto()">Submit</button>
             <div id="output"></div>
         </div>
     </body>
