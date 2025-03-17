@@ -53,10 +53,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
     table-layout: auto;
     margin: 1px auto;
-    color: #4DA7DB;
+    color: cadetblue;
     background-size: cover;
     justify-content: center;
-    border: 8px solid #4DA7DB;
+    border: 8px solid azure;
     border-style: ridge;
 }
 
