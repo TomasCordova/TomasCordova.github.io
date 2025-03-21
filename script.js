@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const elements = {
         technology: document.getElementById("tech-news"),
         sports: document.getElementById("sport-news"),
-        politics: document.getElementById("science-news"),
+        science: document.getElementById("science-news"),
         general: document.getElementById("general-news")
     };
 
