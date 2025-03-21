@@ -2,75 +2,37 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>My Personal Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <script src="script.js"></script>
-        <h1 class="title">Welcome to Córdova's Page</h1>
-        <div class="container">
-            <ol>
-                <li class="list">Name: Tomás Córdova</li>
-                <li class="list">Major: Computer Science</li>
-                <li class="list">Year of University Enrollment: 2020</li>
-                <li class="list">Link to my Github: <a href="https://github.com/TomasCordova/TomasCordova.github.io">https://github.com/TomasCordova/TomasCordova.github.io</a></li>
-                <li class="list">Personal Summary: </li>
-                <p class="paragraph">My name is Tomás Córdova and I study at Los Andes University. I study Civil Engineering in Computer Science. I'd like to dedicate my life programing and investigating about AI on a big company.</p>
-                <p class="paragraph">In my free time I like to play the drums, listen to music and watch movies and series. <a href="https://www.youtube.com/watch?v=VQH8ZTgna3Q">Here</a> you can listen to one of my favourites songs. I also like to play video games with my friends and have a good laugh together.</p>
-                <li class="list">Skill Table:</li>
-            </ol>
-        </div>
-        <div class="separate">
-            <table .border="1" class="table">
-                <tr>
-                    <td>Skill</td>
-                    <td>Level</td>
-                </tr>
-                <tr>
-                    <td>Python</td>
-                    <td>Advance</td>
-                </tr>
-                <tr>
-                    <td>JavaScript</td>
-                    <td>Basic</td>
-                </tr>
-                <tr>
-                    <td>HTML/CSS</td>
-                    <td>Basic</td>
-                </tr>
-                <tr>
-                    <td>Git</td>
-                    <td>Basic</td>
-                </tr>
-                <tr>
-                    <td>Excel</td>
-                    <td>Advance</td>
-                </tr>
-                <tr>
-                    <td>SQL</td>
-                    <td>Basic</td>
-                </tr>
-                <tr>
-                    <td>English</td>
-                    <td>Advance</td>
-                </tr>
-                <tr>
-                    <td>Spanish</td>
-                    <td>Native</td>
-                </tr>
-            </table>
-            <div>
-                <div class="image"><img src="mondongo.jpg" alt="Imagen"></div>
-                <button id="cambiaCara" class="button"></button>
+        <div class="container-fluid">
+            <h1 class="title">Welcome to Córdova's Page</h1>
+            <div class="container text-center">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <button class="menu"><a href="indexL1.html">About Me (Lab 1)</a></button>
+                    </div>
+                    <div class="col">
+                        <button class="menu"><a href="indexL2.html">New Things (Lab 2)</a></button>
+                    </div>
+                    <div class="col">
+                        <button class="menu"><a href="indexL3.html">Later Things</a></button>
+                    </div>
+                </div>
             </div>
         </div>
-        <p class="paragraph">You can kill the face above, but it will always come back. Hold it in place so it stays dead, save us all.</p>
-        <p class="paragraph">Also you can save anything you write on the text box below.</p>
-        <div class="input-area">
-            <textarea id="textInput" placeholder="Write something here..."></textarea>
-            <button onclick="guardarTexto()">Submit</button>
-            <div id="output"></div>
+        <div class="container-lg">
+            <p class="paragraph">In this website you will be able to navigate through different pages made by me. </p>
+            <p class="paragraph">Every single one contains the needed content for each Lab we make in Web Technologies.</p>
+            <p class="paragraph">Enjoy descovering different sites!</p>
         </div>
+        <div class="container-sd">
+            <div class="image"><img src="mondongo.jpg" alt="Imagen"></div>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
